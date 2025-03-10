@@ -1,0 +1,9 @@
+Do This With LocalStorage And Firebase As Well
+Add Feature To Create Multiple Parcha
+Create A Completed Tasks List And With Option To Restore Them 
+Marking Taks As Complete Will Just Move Them To Completed Tasks Div And Only Delete Option
+In The Copmpleted Tasks Will Completely Delete It
+
+Style Changes 
+1. Fill Column Wise, Reach a Certain Height, Then Change Column And Fill,
+Reach A Certain Width, Then Height Automatically Increses.

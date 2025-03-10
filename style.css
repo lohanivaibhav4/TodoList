@@ -1,0 +1,87 @@
+body{
+    background-color: #202124;
+    color: #CEBEBB;
+    font-family: 'Quicksand';
+    text-align: center;
+}
+.app-div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #525355;
+    border-radius: 5px;
+    gap: 20px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.heading i{
+    color: yellowgreen;
+    font-size: 2.55rem;
+}
+h1{
+    font-size: 2.5rem;
+}
+h1:hover{
+    color: yellowgreen;
+    transition: 2000ms;
+    cursor: pointer;
+}
+.add-task-div{
+    padding: 10px 20px;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    color: #CEBEBB;
+
+}
+input{
+    width: 80%;
+    padding: 10px 15px;
+    background-color: #202124;
+    border: 1px solid #525355;
+    border-radius: 10px ;
+    color: #CEBEBB;
+    font-family: inherit;
+}
+
+.tasks-div,.completed-tasks-div{
+    border: 1px solid #525355;
+    width: 100%;
+    border-radius: 5px;
+}
+.completed-tasks-div li:hover{
+    box-shadow: 1px 1px 1px red;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+    max-width: inherit;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    border: 1px solid #525355;
+    padding: 0px 10px;
+    margin: 10px;
+    min-width: 200px;
+}
+li:hover{
+    box-shadow: 1px 1px 1px greenyellow;
+}
+.tick:hover{
+    color: greenyellow;
+}
+.doubletick:hover{
+    color: red;
+}
