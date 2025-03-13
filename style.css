@@ -5,18 +5,18 @@ body{
     text-align: center;
 }
 .app-div{
-    padding: 10px;
+    padding: 0.625em;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid #525355;
     border-radius: 5px;
-    gap: 20px;
+    gap: 1.25em;
 }
 .heading{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 .heading i{
     color: yellowgreen;
@@ -31,22 +31,39 @@ h1:hover{
     cursor: pointer;
 }
 .add-task-div{
-    padding: 10px 20px;
     width: 50%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
     color: #CEBEBB;
-
 }
 input{
     width: 80%;
-    padding: 10px 15px;
+    padding: 0.8rem 1rem;
     background-color: #202124;
     border: 1px solid #525355;
     border-radius: 10px ;
     color: #CEBEBB;
     font-family: inherit;
+}
+@media(max-width:768px){
+    .add-task-div{
+        width: 100%;
+        padding: 0px;
+    }
+    li{
+        font-size: 0.75rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 100px;
+    }
+    input{
+        width: 100%;
+    }
+    h1{
+        margin: 0px;
+        margin-top: 0.5rem;
+    }
 }
 
 .tasks-div,.completed-tasks-div{
@@ -61,7 +78,7 @@ input{
 ul{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 0.625em;
     margin: 0px;
     box-sizing: border-box;
     max-width: inherit;
@@ -72,8 +89,8 @@ li{
     justify-content: start;
     gap: 10px;
     border: 1px solid #525355;
-    padding: 0px 10px;
-    margin: 10px;
+    padding: 0px 0.625em;
+    margin: 0.625em;
     min-width: 200px;
 }
 li:hover{
@@ -85,3 +102,4 @@ li:hover{
 .doubletick:hover{
     color: red;
 }
+
